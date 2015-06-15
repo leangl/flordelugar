@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="barrios_array">
+        <item>Recoleta</item>
+        <item>Palermo</item>
+        <item>La Boca</item>
+        <item>Caballito</item>
+        <item>Lugano</item>
+        <item>Barracas</item>
+    </string-array>
+
+    <string-array name="categorias_array">
+        <item>Arquitectura</item>
+        <item>Cultura</item>
+        <item>Gastronomía</item>
+        <item>Historia</item>
+        <item>Icónico</item>
+        <item>Curiosidades</item>
+    </string-array>
+
+    <string-array name="tiempo_array">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>No tengo apuro</item>
+    </string-array>
+</resources>

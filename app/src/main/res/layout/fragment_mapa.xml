@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/background"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ar.gob.buenosaires.camino.views.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:customFont="DINNextLTPro-Regular.otf"/>
+
+        <View
+            android:id="@+id/linea"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/ba_title"/>
+
+        <ar.gob.buenosaires.camino.views.CustomFontTextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="RECOLETA"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            app:customFont="DINNextLTPro-Regular.otf"/>
+
+        <ar.gob.buenosaires.camino.views.CustomFontTextView
+            android:id="@+id/subtitle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_text"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Conociendo tu ciudad"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:customFont="DINNextLTPro-Regular.otf"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:background="@drawable/flor">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent_light_black"
+            android:padding="5dp">
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/place_title"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                tools:text="Basilica Nuestra señora de Pilar"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/time"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                tools:text="Aprox. 2 minutos"/>
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/next"/>
+
+            <ImageView
+                android:id="@+id/check"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/next"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/check"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ESTÁS A"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:customFont="DINNextLTPro-Regular.otf" />
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                app:customFont="DINNextLTPro-Regular.otf"
+                tools:text="300"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="METROS"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:customFont="DINNextLTPro-Regular.otf"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/map"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/time"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/distance"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/calorias"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/viajes"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

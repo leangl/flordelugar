@@ -1,0 +1,15 @@
+
+<ar.gob.buenosaires.camino.views.CustomFontTextView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/TextView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+    android:paddingLeft="14dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="left"
+    android:layout_gravity="left"
+    app:customFont="DINNextLTPro-Regular.otf"
+    android:textColor="@android:color/white"/>

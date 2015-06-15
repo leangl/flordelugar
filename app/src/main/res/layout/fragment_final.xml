@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/background"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ar.gob.buenosaires.camino.views.CustomFontTextView
+            android:id="@+id/felicitaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:text="Felicitaciones!"/>
+
+        <ar.gob.buenosaires.camino.views.CustomFontTextView
+            android:id="@+id/completaste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/felicitaciones"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:text="completaste el recorrido"/>
+
+        <ImageView
+            android:id="@+id/check1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/check"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/flor">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:padding="5dp">
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/place_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/white"
+                android:textSize="26sp"
+                android:text="Estos son algunos de los beneficios que lograste:"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/xx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:layout_below="@+id/place_title"
+                android:text="Caminaste el equivalente a"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/numero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="58sp"
+                android:text="8"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/xxt"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/numero"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:text="Paradas de subte"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_alignTop="@id/xxt"
+                android:src="@drawable/tiporedondo"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:paddingTop="20dp"
+        android:weightSum="4">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="42sp"
+                android:text="6"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_shape"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="minutos"
+                android:layout_below="@+id/a"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="42sp"
+                android:text="28"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_shape"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="metros"
+                android:layout_below="@+id/b"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="42sp"
+                android:text="52"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_shape"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="calorias"
+                android:layout_below="@+id/c"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="42sp"
+                android:text="16"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_shape"/>
+
+            <ar.gob.buenosaires.camino.views.CustomFontTextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="viajes en subte"
+                android:layout_below="@+id/d"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

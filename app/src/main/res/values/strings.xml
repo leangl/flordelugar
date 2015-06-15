@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flor de Lugar</string>
+    <string name="final_activity">Finalizar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="no_location">No se ha podido obtener su ubicación</string>
+    <string name="loading">Cargando...</string>
+
+
+    <string name="barrio">BARRIO</string>
+
+</resources>

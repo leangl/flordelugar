@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ar.gob.buenosaires.camino.views.CustomFontTextView
+        android:id="@+id/title_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textColor="@color/ba_title"
+        android:text="@string/app_name"
+        app:customFont="DINNextLTPro-Regular.otf"/>
+
+    <View
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ba_title"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_below="@+id/title_app"/>
+
+    <ar.gob.buenosaires.camino.views.CustomFontTextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/linea"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:text="RECOLETA"
+        app:customFont="DINNextLTPro-Regular.otf"/>
+
+    <ar.gob.buenosaires.camino.views.CustomFontTextView
+        android:id="@+id/subtitle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/title_text"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:text="Conociendo tu ciudad"
+        app:customFont="DINNextLTPro-Regular.otf"/>
+
+    <ListView
+        android:id="@+id/resultados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:layout_below="@+id/subtitle_text"
+        android:visibility="visible"/>
+
+</RelativeLayout>
