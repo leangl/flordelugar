@@ -5,7 +5,7 @@
 
 Caminando Buenos Aires, es una plataforma que permite generar recorridos con audioguias que estimulen a la gente a descubrir la ciudad caminando conectando los lugares mas admirados por los vecinos de la ciudad.
 
-Este repositorio incluye solo el sitio web.
+Este repositorio incluye solo la app android.
 
 # Flor de Lugar
 
