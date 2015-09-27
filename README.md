@@ -1,3 +1,12 @@
+# Caminando Buenos Aires
+## Proyecto para Hackaton Buenos Aires 2015 
+
+¿Como podemos hacer que la gente camine mas?
+
+Caminando Buenos Aires, es una plataforma que permite generar recorridos con audioguias que estimulen a la gente a descubrir la ciudad caminando conectando los lugares mas admirados por los vecinos de la ciudad.
+
+Este repositorio incluye solo el sitio web.
+
 # Flor de Lugar
 
 La Ciudad de Buenos Aires está cambiando su perfil urbano con el objetivo de mejorar la calidad de vida de las millones de personas que diariamente la transitan. En la práctica, esta gran transformación implica, entre otros cambios, un rediseño del espacio para darle prioridad a las personas y a los medios de movilidad saludable, promoviendo usos compartidos y sustentables del espacio público. 
@@ -60,3 +69,17 @@ La Plataforma puede hacer sinergia con la Agenda Cultural de la Ciudad y traslad
 - Camila Cifuentes - Comunicación Subsecretaría de Transporte
 - Sol Mountford - Gerente Promoción Movilidad Saludable
 - Paula Bisiau - Directora de Movilidad Saludable
+
+
+
+Backlog
+=====
+
+Ayudanos a hacer los proximos pasos
+
+- Necesitamos crear mas capitulos.
+- HyperLocal > Bajarse la info directamente en los barrios por BAWifi
+- Compositor > App para documentar historias.
+- TIPS > Como caminar
+- Audios inspiracionales informativos.
+- CMS para curar las historias enviadas.
